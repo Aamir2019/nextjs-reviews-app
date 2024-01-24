@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
                     {children}
                 </main>
                 <footer className="border-t py-3 text-center  text-slate-500 text-xs">
-                    This is the Footer of {' '}<a className="text-teal-800 hover:underline">Website</a>
+                    This is the Footer of {' '}<a className="text-teal-800 hover:underline">Website</a> {' '} | Deployed By Vercel.
                 </footer>
             </body>
         </ html>
